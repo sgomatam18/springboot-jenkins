@@ -16,6 +16,7 @@ class SpringbootJenkinsApplicationTests {
 	void contextLoads() {
 		logger.info("Test case executing");
 		logger.info("Test case executing again -- 4");
+		logger.info("Test case executing pipeline added -- 1");
 		assertEquals(true, true);
 	}
 
